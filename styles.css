@@ -314,7 +314,7 @@
       margin-left: 80%; }
      }
 
-     @media only screen and (min-width: 414px) {
+    @media only screen and (min-width: 414px) {
        .modal_inner {
         width: 414px;
         background-color: #fff;
@@ -324,6 +324,52 @@
         overflow-y: scroll;
 
        }
+
+       .modal_body-title {
+        margin-top: 40px;
+
+      }
+      .modal_header {
+        position: fixed;
+        top: 161;
+        left: 0;
+        right: 0;
+      }
+
+
+     .footer {
+      position: relative;
+      bottom: 0;
+      left: 190px;
+      right: 0;
+      margin-top: 25px;
+    font-family: 'Poppins', sans-serif;
+      
+     }
+
+     .footer-sign {
+        font-size: 22px;
+        font-weight: bold;
+        position: relative;
+        right: 0;
+        left: 60px;
+     }
+     .footer-name {
+      font-size: 17px;
+        font-weight: lighter;
+        position: relative;
+        right: 0;
+        left: 66px;
+     }
+     .footer-fullname {
+      font-size: 17px;
+      font-weight: lighter;
+      position: relative;
+      right: 0;
+      left: 0
+     }
+
+
       }
 
       @media only screen and (max-width: 392px) {
